@@ -1,0 +1,162 @@
+.container {
+    position: relative;
+    width: 1250px;
+    height: 586px;
+    margin: 10px auto;
+    background: url(图层0.png) no-repeat center;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav .zhong {
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: beige;
+    float: left;
+}
+
+.nav .zuo a {
+    color: beige;
+}
+
+.nav .zuo {
+
+    float: left;
+    margin-right: 450px;
+}
+
+.nav .you {
+    font-size: 14px;
+    color: beige;
+    float: right;
+}
+
+.nav {
+    padding: 20px 20px
+}
+
+.yuan {
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px !important;
+    color: black;
+    margin: 0 7px;
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: beige;
+    display: inline-block;
+}
+
+.changyuan {
+    display: inline-block;
+    height: 35px;
+    width: 90px;
+    color: black;
+    text-align: center;
+    line-height: 35px;
+    vertical-align: middle;
+    border-radius: 20px;
+    background-color: beige;
+}
+
+.dabiaoti {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.dabiaoti p:nth-child(-n+2) {
+    font-size: 45px;
+    color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dabiaoti p {
+    margin-bottom: 10px;
+}
+
+.dabiaoti p:nth-child(n+3) {
+    color: beige;
+    font-size: 20px;
+}
+
+.xiaozhaopian {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
+
+.font {
+    color: beige;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.footer a {
+    color: beige;
+}
+
+.footer {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    color: beige;
+}
+
+.footer ul {
+    float: left;
+}
+
+.footeryou {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: beige;
+}
+
+.icon-icon-test12 {
+    transition: all 0.5s;
+}
+
+.icon-icon-test12:hover {
+    transform: scale(1.3) rotate(45deg);
+}
+
+ul:hover {
+    color: black !important;
+}
+
+ul {
+    transition: all 0.5s ease;
+}
+
+ul li:hover {
+
+    background-color: beige;
+}
+
+.you a {
+    color: blanchedalmond;
+}
